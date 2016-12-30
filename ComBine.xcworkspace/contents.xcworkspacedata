@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MView/MView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MFoundtion/MFoundtion.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MBusiness/MBusiness.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MyMain/MyMain.xcodeproj">
+   </FileRef>
+</Workspace>

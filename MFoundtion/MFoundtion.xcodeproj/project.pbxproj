@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D56A9FCD1E163BE10012EDAA /* MFoundtion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D56A9FCA1E163BE10012EDAA /* MFoundtion.h */; };
+		D56A9FDB1E163C480012EDAA /* OGCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D56A9FD41E163C480012EDAA /* OGCDGroup.m */; };
+		D56A9FDC1E163C480012EDAA /* OGCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D56A9FD61E163C480012EDAA /* OGCDQueue.m */; };
+		D56A9FDD1E163C480012EDAA /* OGCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = D56A9FD81E163C480012EDAA /* OGCDSemaphore.m */; };
+		D56A9FDE1E163C480012EDAA /* OGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D56A9FDA1E163C480012EDAA /* OGCDTimer.m */; };
+		D56A9FE31E163C6B0012EDAA /* NSArray+LineFunExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D56A9FE01E163C6B0012EDAA /* NSArray+LineFunExt.m */; };
+		D56A9FE41E163C6B0012EDAA /* NSDictionary+LineFunExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D56A9FE21E163C6B0012EDAA /* NSDictionary+LineFunExt.m */; };
+		D56A9FE71E163D8F0012EDAA /* NSArray+LineFunExt.h in Headers */ = {isa = PBXBuildFile; fileRef = D56A9FDF1E163C6B0012EDAA /* NSArray+LineFunExt.h */; };
+		D56A9FE81E163D8F0012EDAA /* NSDictionary+LineFunExt.h in Headers */ = {isa = PBXBuildFile; fileRef = D56A9FE11E163C6B0012EDAA /* NSDictionary+LineFunExt.h */; };
+		D56A9FE91E163D8F0012EDAA /* OGCDGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = D56A9FD31E163C480012EDAA /* OGCDGroup.h */; };
+		D56A9FEA1E163D8F0012EDAA /* OGCDQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D56A9FD51E163C480012EDAA /* OGCDQueue.h */; };
+		D56A9FEB1E163D8F0012EDAA /* OGCDSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = D56A9FD71E163C480012EDAA /* OGCDSemaphore.h */; };
+		D56A9FEC1E163D8F0012EDAA /* OGCDTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D56A9FD91E163C480012EDAA /* OGCDTimer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D56A9FC51E163BE10012EDAA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D56A9FCD1E163BE10012EDAA /* MFoundtion.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D56A9FC71E163BE10012EDAA /* libMFoundtion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMFoundtion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56A9FCA1E163BE10012EDAA /* MFoundtion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFoundtion.h; sourceTree = "<group>"; };
+		D56A9FD31E163C480012EDAA /* OGCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGCDGroup.h; sourceTree = "<group>"; };
+		D56A9FD41E163C480012EDAA /* OGCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGCDGroup.m; sourceTree = "<group>"; };
+		D56A9FD51E163C480012EDAA /* OGCDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGCDQueue.h; sourceTree = "<group>"; };
+		D56A9FD61E163C480012EDAA /* OGCDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGCDQueue.m; sourceTree = "<group>"; };
+		D56A9FD71E163C480012EDAA /* OGCDSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGCDSemaphore.h; sourceTree = "<group>"; };
+		D56A9FD81E163C480012EDAA /* OGCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGCDSemaphore.m; sourceTree = "<group>"; };
+		D56A9FD91E163C480012EDAA /* OGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGCDTimer.h; sourceTree = "<group>"; };
+		D56A9FDA1E163C480012EDAA /* OGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGCDTimer.m; sourceTree = "<group>"; };
+		D56A9FDF1E163C6B0012EDAA /* NSArray+LineFunExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LineFunExt.h"; sourceTree = "<group>"; };
+		D56A9FE01E163C6B0012EDAA /* NSArray+LineFunExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LineFunExt.m"; sourceTree = "<group>"; };
+		D56A9FE11E163C6B0012EDAA /* NSDictionary+LineFunExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LineFunExt.h"; sourceTree = "<group>"; };
+		D56A9FE21E163C6B0012EDAA /* NSDictionary+LineFunExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LineFunExt.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D56A9FC41E163BE10012EDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D56A9FBE1E163BE10012EDAA = {
+			isa = PBXGroup;
+			children = (
+				D56A9FC91E163BE10012EDAA /* MFoundtion */,
+				D56A9FC81E163BE10012EDAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D56A9FC81E163BE10012EDAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D56A9FC71E163BE10012EDAA /* libMFoundtion.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D56A9FC91E163BE10012EDAA /* MFoundtion */ = {
+			isa = PBXGroup;
+			children = (
+				D56A9FDF1E163C6B0012EDAA /* NSArray+LineFunExt.h */,
+				D56A9FE01E163C6B0012EDAA /* NSArray+LineFunExt.m */,
+				D56A9FE11E163C6B0012EDAA /* NSDictionary+LineFunExt.h */,
+				D56A9FE21E163C6B0012EDAA /* NSDictionary+LineFunExt.m */,
+				D56A9FD31E163C480012EDAA /* OGCDGroup.h */,
+				D56A9FD41E163C480012EDAA /* OGCDGroup.m */,
+				D56A9FD51E163C480012EDAA /* OGCDQueue.h */,
+				D56A9FD61E163C480012EDAA /* OGCDQueue.m */,
+				D56A9FD71E163C480012EDAA /* OGCDSemaphore.h */,
+				D56A9FD81E163C480012EDAA /* OGCDSemaphore.m */,
+				D56A9FD91E163C480012EDAA /* OGCDTimer.h */,
+				D56A9FDA1E163C480012EDAA /* OGCDTimer.m */,
+				D56A9FCA1E163BE10012EDAA /* MFoundtion.h */,
+			);
+			path = MFoundtion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D56A9FE61E163D7C0012EDAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56A9FE71E163D8F0012EDAA /* NSArray+LineFunExt.h in Headers */,
+				D56A9FE81E163D8F0012EDAA /* NSDictionary+LineFunExt.h in Headers */,
+				D56A9FE91E163D8F0012EDAA /* OGCDGroup.h in Headers */,
+				D56A9FEA1E163D8F0012EDAA /* OGCDQueue.h in Headers */,
+				D56A9FEB1E163D8F0012EDAA /* OGCDSemaphore.h in Headers */,
+				D56A9FEC1E163D8F0012EDAA /* OGCDTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D56A9FC61E163BE10012EDAA /* MFoundtion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56A9FD01E163BE10012EDAA /* Build configuration list for PBXNativeTarget "MFoundtion" */;
+			buildPhases = (
+				D56A9FC31E163BE10012EDAA /* Sources */,
+				D56A9FC41E163BE10012EDAA /* Frameworks */,
+				D56A9FC51E163BE10012EDAA /* CopyFiles */,
+				D56A9FE61E163D7C0012EDAA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFoundtion;
+			productName = MFoundtion;
+			productReference = D56A9FC71E163BE10012EDAA /* libMFoundtion.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D56A9FBF1E163BE10012EDAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.zhaofeng;
+				TargetAttributes = {
+					D56A9FC61E163BE10012EDAA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F7ZR4B5FH4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D56A9FC21E163BE10012EDAA /* Build configuration list for PBXProject "MFoundtion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D56A9FBE1E163BE10012EDAA;
+			productRefGroup = D56A9FC81E163BE10012EDAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D56A9FC61E163BE10012EDAA /* MFoundtion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D56A9FC31E163BE10012EDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56A9FE31E163C6B0012EDAA /* NSArray+LineFunExt.m in Sources */,
+				D56A9FDB1E163C480012EDAA /* OGCDGroup.m in Sources */,
+				D56A9FDC1E163C480012EDAA /* OGCDQueue.m in Sources */,
+				D56A9FDE1E163C480012EDAA /* OGCDTimer.m in Sources */,
+				D56A9FDD1E163C480012EDAA /* OGCDSemaphore.m in Sources */,
+				D56A9FE41E163C6B0012EDAA /* NSDictionary+LineFunExt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D56A9FCE1E163BE10012EDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D56A9FCF1E163BE10012EDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D56A9FD11E163BE10012EDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F7ZR4B5FH4;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D56A9FD21E163BE10012EDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F7ZR4B5FH4;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D56A9FC21E163BE10012EDAA /* Build configuration list for PBXProject "MFoundtion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56A9FCE1E163BE10012EDAA /* Debug */,
+				D56A9FCF1E163BE10012EDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56A9FD01E163BE10012EDAA /* Build configuration list for PBXNativeTarget "MFoundtion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56A9FD11E163BE10012EDAA /* Debug */,
+				D56A9FD21E163BE10012EDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D56A9FBF1E163BE10012EDAA /* Project object */;
+}
